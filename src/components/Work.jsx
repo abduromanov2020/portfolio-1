@@ -1,9 +1,9 @@
 import React from 'react'
+import Project0 from '../assets/project-0.jpg'
 import Project1 from '../assets/project-1.jpg'
 import Project2 from '../assets/project-2.jpg'
 import Project3 from '../assets/project-3.jpg'
 import Project4 from '../assets/project-4.png'
-import Project5 from '../assets/project-5.jpg'
 import Project6 from '../assets/project-6.jpg'
 
 const Work = () => {
@@ -24,6 +24,22 @@ const Work = () => {
                         <div className="opacity-0 group-hover:opacity-100">
                             <span className="text-2xl font-bold text-white tracking-wider">
                                 Covid React App
+                            </span>
+                            <div className="pt-2 text-center">
+                                <a href="https://maps-api-alfatihdevs.vercel.app/" target="_blank">
+                                    <button className="text-center rounded-sm px-6 py-2 m-2 hover:bg-white hover:text-gray-700 font-bold text-lg border-2 bg-[transparent] text-white border-[#fff]">Visit</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div style={{ backgroundImage: `url(${Project0})` }} className="shadow-lg shadow-[#040c16] group container  flex justify-center items-center mx-auto content-div rounded-lg">
+
+                        {/* Hover Effect */}
+                        <div className="opacity-0 group-hover:opacity-100">
+                            <span className="text-2xl font-bold text-white tracking-wider">
+                                Google Maps API
                             </span>
                             <div className="pt-2 text-center">
                                 <a href="https://covidapp-abduromanov.vercel.app/" target="_blank">
@@ -88,27 +104,12 @@ const Work = () => {
                                 Laravel Pharmacy Website
                             </span>
                             <div className="pt-2 text-center">
-                                <a href="#">
                                     <button className="text-center rounded-sm px-6 py-2 m-2 hover:bg-white hover:text-gray-700 font-bold text-lg border-2 bg-[transparent] text-white border-[#fff]">Visit</button>
-                                </a>
                             </div>
                         </div>
                     </div>
 
-                    <div style={{ backgroundImage: `url(${Project5})` }} className="shadow-lg shadow-[#040c16] group container  flex justify-center items-center mx-auto content-div rounded-lg">
-
-                        {/* Hover Effect */}
-                        <div className="opacity-0 group-hover:opacity-100">
-                            <span className="text-2xl font-bold text-white tracking-wider">
-                                Profile Company
-                            </span>
-                            <div className="pt-2 text-center">
-                                <a href="https://ghptour.com/" target="_blank">
-                                    <button className="text-center rounded-sm px-6 py-2 m-2 hover:bg-white hover:text-gray-700 font-bold text-lg border-2 bg-[transparent] text-white border-[#fff]">Visit</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    
                     
                 </div>
             </div>

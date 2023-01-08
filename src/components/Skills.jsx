@@ -10,6 +10,14 @@ import Laravel from '../assets/laravel.png'
 import Github from '../assets/github.png'
 import Tailwind from '../assets/tailwind.png'
 import Codeigniter from '../assets/codeigniter.png'
+import Go from '../assets/go.png'
+import DBeaver from '../assets/DBeaver.png'
+import Docker from '../assets/docker.png'
+import Echo from '../assets/echo.png'
+import Insomnia from '../assets/insomnia.png'
+import Postman from '../assets/postman.png'
+import Postgresql from '../assets/postgresql.png'
+import StyledComponent from '../assets/styled-component.png'
 
 const Skills = () => {
     return (
@@ -61,6 +69,38 @@ const Skills = () => {
                     <div className="shadom-md shadow-[#040c16] hover:scale-110 duration-500">
                         <img className="w-20 mx-auto" src={Laravel} alt="AWS icon" />
                         <p className="my-4 font-semibold">Laravel</p>
+                    </div>
+                    <div className="shadom-md shadow-[#040c16] hover:scale-110 duration-500">
+                        <img className="w-20 mx-auto" src={Go} alt="AWS icon" />
+                        <p className="my-4 font-semibold">Go</p>
+                    </div>
+                    <div className="shadom-md shadow-[#040c16] hover:scale-110 duration-500">
+                        <img className="w-20 mx-auto" src={Echo} alt="AWS icon" />
+                        <p className="my-4 font-semibold">Echo</p>
+                    </div>
+                    <div className="shadom-md shadow-[#040c16] hover:scale-110 duration-500">
+                        <img className="w-20 mx-auto" src={Docker} alt="AWS icon" />
+                        <p className="my-4 font-semibold">Docker</p>
+                    </div>
+                    <div className="shadom-md shadow-[#040c16] hover:scale-110 duration-500">
+                        <img className="w-20 mx-auto" src={DBeaver} alt="AWS icon" />
+                        <p className="my-4 font-semibold">DBeaver</p>
+                    </div>
+                    <div className="shadom-md shadow-[#040c16] hover:scale-110 duration-500">
+                        <img className="w-20 mx-auto" src={Insomnia} alt="AWS icon" />
+                        <p className="my-4 font-semibold">Insomnia</p>
+                    </div>
+                    <div className="shadom-md shadow-[#040c16] hover:scale-110 duration-500">
+                        <img className="w-20 mx-auto" src={Postman} alt="AWS icon" />
+                        <p className="my-4 font-semibold">Postman</p>
+                    </div>
+                    <div className="shadom-md shadow-[#040c16] hover:scale-110 duration-500">
+                        <img className="w-20 mx-auto" src={Postgresql} alt="AWS icon" />
+                        <p className="my-4 font-semibold">PostgreSQL</p>
+                    </div>
+                    <div className="shadom-md shadow-[#040c16] hover:scale-110 duration-500">
+                        <img className="w-20 mx-auto" src={StyledComponent} alt="AWS icon" />
+                        <p className="my-4 font-semibold">Styled Component</p>
                     </div>
                 </div>
             </div>

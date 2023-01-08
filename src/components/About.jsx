@@ -16,7 +16,7 @@ const About = () => {
                     </div>
                     <div>
                         <p>
-                        I’m 20 Years old, Enthusiastic Informatic Engineering mid-semester student with about 1 year of experience in web development and design. Obtained React Certification from several online Course. Looking to deliver excellent web development skills in React and Javascript to help grow the business
+                        I’m 20 Years old, Enthusiastic Informatic Engineering undergraduate student with about 1 year of experience in web development and design. Obtained React Certification from several online Course. Looking to deliver excellent web development skills in React and Javascript to help grow the business
                         </p>
                     </div>
                 </div>
